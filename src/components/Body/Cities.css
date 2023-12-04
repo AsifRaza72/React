@@ -1,0 +1,180 @@
+.parent{
+  width: auto;
+  height: 90rem;
+}
+.cities-section-heading{
+  padding-left: 4%;
+  font-weight: 400;
+  font-size: xx-large;
+}
+.sections{
+  display: block;
+  width: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.cities{
+   float: left;
+   margin-left: 2rem;
+   width: 22%;
+   height: 174px;
+   background-size: cover;
+   margin-top: 1.5rem;
+   border-radius: 5px;
+
+}
+.cities:hover{
+  transform: scale(1.1);
+  transition: 1.0s;
+  cursor: pointer;
+}
+.cities p{
+  margin: 72% 0 0 2%;
+  left: 0;
+  bottom: 0;
+  color:black;
+  background-color: white;
+  width:fit-content;
+  height: 10px;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.img1{
+  height: 16rem;
+  background-image: url('../Images/karachi.jpeg');
+  background-repeat: no-repeat;
+}
+.img1 :hover{
+  transform: scale(1.03);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.img2{
+  height: 16rem;
+  background-image: url('../Images/lahore.jpeg');
+  background-repeat: no-repeat;
+}
+
+.img3{
+  height: 16rem;
+  background-image: url('../Images/isb.jpeg');
+  background-repeat: no-repeat;
+
+}
+
+.img4{
+  height: 16rem;
+  background-image: url('../Images/pindi.jpeg');
+  background-repeat: no-repeat;
+}
+
+.img5{
+  height: 16rem;
+  background-image: url('../Images/faisal.jpeg');
+  background-repeat: no-repeat;
+
+}
+.img6{
+  height: 16rem;
+
+  background-image: url('../Images/multan.jpeg');
+  background-repeat: no-repeat;
+}
+.img7{
+  height: 16rem;
+
+  background-image: url('../Images/hyderabad.jpeg');
+  background-repeat: no-repeat;
+}
+.img8{
+  height: 16rem;
+  background-image: url('../Images/sialkot.jpeg');
+  background-repeat: no-repeat;
+}
+.img9{
+  height: 16rem;
+  background-image: url('../Images/peshawar.jpg');
+  background-repeat: no-repeat;
+}
+.img10{
+  height: 16rem;
+  background-image: url('../Images/sukkur.jpg');
+  background-repeat: no-repeat;
+}
+.img11{
+  height: 16rem;
+  background-image: url('../Images/murree.jpeg');
+  background-repeat: no-repeat;
+}
+.img12{
+  height: 16rem;
+  background-image: url('../Images/mangla.jpeg');
+  background-repeat: no-repeat;
+}
+.img13{
+  height: 16rem;
+  background-image: url('../Images/panoAqil.jpeg');
+  background-repeat: no-repeat;
+}
+.img14{
+  height: 16rem;
+  background-image: url('../Images/bawalpur.jpeg');
+  background-repeat: no-repeat;
+}
+.img15{
+  height: 16rem;
+  background-image: url('../Images/sadiqAbad.jpeg');
+  background-repeat: no-repeat;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.img16{
+  height: 16rem;
+  background-image: url('../Images/larkana.jpeg');
+  background-repeat: no-repeat;
+}
+.img17{
+  height: 16rem;
+  background-image: url('../Images/sahiwal.jpeg');
+  background-repeat: no-repeat;
+}
+.img18{
+  height: 16rem;
+  background-image: url('../Images/cantt.jpeg');
+  background-repeat: no-repeat;
+}
+.img19{
+  height: 16rem;
+  background-image: url('../Images/abbotabad.jpeg');
+  background-repeat: no-repeat;
+}
+.img20{
+  height: 16rem;
+  background-image: url('../Images/Rahim.jpeg');
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+  .sections{
+    display: block;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .cities{
+    float: left;
+    margin-left: 2rem;
+    width: 20%;
+    height: 174px;
+    background-size: cover;
+ }
+
+
+  }

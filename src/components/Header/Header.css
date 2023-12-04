@@ -1,0 +1,102 @@
+.Header{
+    width: auto;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+   background-color: white;
+   /* justify-content:space; */
+   align-content: center;
+   padding-left: 3rem;
+}
+.Header img{
+    width: 13%;
+    height: 180%;
+    margin-right: 50%;
+
+}
+
+.btn1{
+color :#e21b70;
+border: 1px solid #e21b70;
+height: 30px;
+width: 5rem;
+/* margin-top: 10px; */
+border-radius: 8px;
+background-color: white;
+margin: 0 1.5em;
+padding: 0;
+}
+.btn2{
+height: 30px;
+width: 5rem;
+color: white;
+background-color: #e21b70;
+border: white;
+border-radius: 8px;
+/* margin-top: 10px; */
+font-weight:bold;
+/* justify-content: space-around; */
+/* margin: 0 1.5em; */
+padding: 0;
+
+
+}
+.icon {
+    width: 2rem;
+    height: 1.5rem;
+    /* margin-right: 0.rem; */
+    padding:0;
+    color: #0e0d0d;
+  }
+  .button {
+    
+    border: none;
+    background-color:white;
+    color: white;
+    /* padding: 0 1rem; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    width: 4%;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+
+  }
+  @media (max-width: 768px){
+    .Header{
+      width: auto;
+      height: 80px;
+      display:flexbox;
+      margin-left: 1%;
+      overflow: hidden;
+      align-items: center;
+  }
+    .Header img{
+      width: 25%;
+      height: 80px;
+
+
+  }
+  .button {
+
+   /* justify-content: left;
+   align-items:flex-start; */
+   position: relative;
+   display:inline-block;
+   left: 0;
+
+  }
+  .icon {
+    width: 8rem;
+    height: 5rem;
+    /* margin-right: 0.rem; */
+    padding:0;
+    color: #0e0d0d;
+    /* position: relative; */
+    left: 0;
+  }
+
+  }

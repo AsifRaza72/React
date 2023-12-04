@@ -1,0 +1,126 @@
+.container{
+    width: 100%;
+    height:800px;
+    box-shadow: inset 0px 0.5px 10px #b3b1ae;
+    background-color:#EEF0F1;
+    display: flex;
+    overflow: hidden;
+    padding-top: 8rem;
+
+}
+.content{
+    width: 50%;
+    padding:137px 0 0 112px;
+   height:auto;;
+    float: left;
+    display: flexbox;
+    overflow: hidden;
+}
+.heading h1{
+    font:32px sans-serif;
+    font-weight: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+color: black;
+
+}
+.loc-search{
+    width: 100%;
+    height: 60px;
+    border-radius: 9px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+   padding: 10px;
+   border-radius: 9px;
+
+}
+
+.loc-search input{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    float: left;
+    margin-right: 2%;
+    border-radius: 8px;
+    /* border:0.1 black; */
+    opacity: 0.5;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+ .content-button{
+    width: 20%;
+    color:white;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e21b70;;
+    /* float: left; */
+}
+.image-part{
+    width: 50%;
+    height:800px;
+    background-image: url('../Images/refresh-hero-home-pk.webp');
+     /* background-size:contain; */
+    overflow: hidden;
+    /* margin-top:5rem; */
+    background-repeat: no-repeat;
+    /* background-position: 130% ; */
+    /* background-position: right; */
+
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        height:450px;
+        padding-top: 6rem;
+    }
+    .content{
+        width: 50%;
+        padding:130px 0 0 20px;
+        /* height: 100px; */
+        height: auto;
+    }
+    .heading h1{
+        font:22px sans-serif;
+        font-weight: 600px;
+    width: fit-content;
+    }
+    .loc-search{
+        width: 100%;
+        height: 90px;
+        border-radius: 9px;
+        background-color: white;
+        justify-content: center;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+    }
+    .loc-search input{
+        width: 90%;
+        height: 40px;
+        display: block;
+        border-radius: 8px;
+        opacity: 0.5;
+    }
+    .content-button{
+        margin-top: 6px;
+        width: 40%;
+        justify-content: center;
+        margin-left: 25%;
+    }
+    .image-part{
+        width: 50%;
+        /* height:100px; */
+        height: auto;
+        background-image: url('../Images/refresh-hero-home-pk.webp');
+        overflow: hidden;
+        background-repeat: no-repeat;
+    
+    }
+
+}

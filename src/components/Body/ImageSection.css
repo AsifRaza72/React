@@ -1,0 +1,67 @@
+.back-img{
+    background-image: url('../Images/home-vendor-pk.webp');
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    background-size:contain;
+    padding: 60% 8%;
+    background-repeat: no-repeat;
+    right: 0;
+}
+.sec2{
+    width: 100%;
+    height: 80rem;
+    margin-top: 5rem;
+    /* padding-top: 10rem; */
+    /* display: flexbox; */}
+.sec2 h1{
+font-size:xx-large;
+    font-weight: 500;
+    margin-left: 1rem;
+    font-style: normal;
+}
+.text-block{
+    width: 50%;
+
+    height: 30%;
+    background-color: white;
+    padding: 25px;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+}
+.text-block b{
+    font: 1em sans-serif;
+    font-size: large;
+
+}
+.text-block button{
+    margin-top: 2rem;
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #e21b70;
+}
+@media (max-width: 768px){
+    .back-img{
+        padding: 20rem 2rem;
+  }
+  .text-block{
+    width: 80%;
+
+    /* height: 250px;
+    background-color: white;
+    padding: 25px;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray; */
+
+}
+.sec2{
+height: 60rem;
+}
+}
